@@ -253,7 +253,7 @@ def main():
     # Get API keys from environment variables
     env_firecrawl_key = os.getenv("FIRECRAWL_API_KEY", "")
     env_openai_key = os.getenv("OPENAI_API_KEY", "")
-    default_model = os.getenv("OPENAI_MODEL_ID", "o3-mini")
+    default_model = os.getenv("OPENAI_MODEL_ID", "gpt-4o-mini")
 
     with st.sidebar:
         st.title("🔑 API Configuration")
