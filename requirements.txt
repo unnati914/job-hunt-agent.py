@@ -1,0 +1,6 @@
+streamlit>=1.30.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+firecrawl>=0.1.0
+agno>=0.1.0
+openai>=1.0.0 
